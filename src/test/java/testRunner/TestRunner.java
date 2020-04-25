@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/Features/1.feature",
+        features = "/Features/temp.feature",
         glue="stepDefinition",
         plugin = { "pretty", "json:target/Cucumber.json" },
         monochrome = true
